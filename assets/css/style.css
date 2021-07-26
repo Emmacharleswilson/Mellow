@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Work+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* heading and menu items */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    font-family: 'Times New Roman', Times, serif sans-serif;
+
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover { 
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: Work, sans-serif;
+    color:#424643;
+}
