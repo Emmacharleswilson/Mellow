@@ -16,14 +16,14 @@
 }
 
 #menu, #logo {
-    line-height: 75px;
+    line-height: 50px;
 }
 
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
-    margin-top: 10px;
+    margin-top: 4px;
 }
 
 #menu a {
@@ -41,11 +41,64 @@
 
 #logo {
     float: left;
-    font-size: 250%;
+    font-size: 200%;
     margin-left: 30px;
-    margin-top: 10px;
+    margin-top: 4px;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: Work, sans-serif;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
     color:#424643;
+}
+
+/* image and cover text */
+
+#mellow-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#cover-text h3 {
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 40px;
+    font-size: 150%;
+}
+
+#cover-text h2 {
+    color: #fff;
+    padding-bottom: 10px;
+    font-size: 350%;
+    font-family: Courgette, sans-serif;
+
+}
+
+#mellow-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/mellow-image.webp') no-repeat center center; 
+    background-size: 1450px;
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+
+    width: 300px;
+    height: 100px;
+
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    bottom: 30px;
+    right: 100px;
+    left: 110px;
+    top: 130px;
+
+    position: absolute;
 }
