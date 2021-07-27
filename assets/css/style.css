@@ -155,3 +155,28 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 }
+
+/* history page title and content */
+
+#history {
+    float: left;
+    position: relative;
+    padding-top: 60px;
+    padding-right: 200px;
+    padding-left: 40px;
+    font-size: 120%;
+}
+
+#history p {
+    width: 500px;
+    font-size: 105%;
+    line-height: 25px;
+}
+
+#buddhist-monks {
+    max-width: 100%;
+    height: auto;
+    padding-left: 570px;
+    top: -470px;
+    position: relative;
+}
