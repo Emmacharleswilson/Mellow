@@ -180,3 +180,25 @@ footer {
     top: -470px;
     position: relative;
 }
+
+#how-old {
+    margin-top: -430px;
+}
+
+#how-old p {
+    width: 1300px;
+    line-height: 25px;
+    font-size: 105%;
+}
+
+#li {
+    padding-left: 30px;
+    list-style-position: inside;
+    font-size: 105%;
+    padding-top: 10px;
+}
+
+#india {
+    font-size: 105%;
+    line-height: 25px;
+}
