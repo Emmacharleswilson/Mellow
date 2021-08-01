@@ -217,12 +217,14 @@ footer {
     padding-right: 200px;
     padding-left: 40px;
     font-size: 120%;
+    font-family: Work, sans-serif;
 }
 
 #history p {
     width: 500px;
     font-size: 105%;
     line-height: 25px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #buddah-history {
@@ -233,12 +235,14 @@ footer {
 
 #how-old {
     margin-top: -430px;
+    font-family: Work, sans-serif;
 }
 
 #how-old p {
     width: 1300px;
     line-height: 25px;
     font-size: 105%;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #li {
@@ -246,9 +250,11 @@ footer {
     list-style-position: inside;
     font-size: 105%;
     padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #india {
     font-size: 105%;
     line-height: 25px;
+    font-family: 'Times New Roman', Times, serif;
 }
