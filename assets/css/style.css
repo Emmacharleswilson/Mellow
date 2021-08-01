@@ -72,7 +72,7 @@ body {
 }
 
 #cover-text h3 {
-    color: rgb(53, 42, 42);
+    color: #3a2727;
     font-family: 'Times New Roman', Times, serif;
     line-height: 40px;
     font-size: 150%;
@@ -125,8 +125,8 @@ body {
     height: 320px;
     padding: 20px;
     border-style: solid;
-    border-color: #ccc;
-    border-width: 2px;
+    border-color:  rgb(255, 255, 255);
+    border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
     float: right;
@@ -146,8 +146,8 @@ body {
     height: 320px;
     padding: 20px;
     border-style: solid;
-    border-color: #ccc;
-    border-width: 2px;
+    border-color:rgb(255, 255, 255);
+    border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
     float: right;
@@ -176,7 +176,7 @@ body {
 #about-us h3 {
     text-align: center;
     padding-bottom: 30px;
-    color: #000000;
+    color: #634242;
 }
 
 #about-us p {
@@ -225,9 +225,7 @@ footer {
     line-height: 25px;
 }
 
-#buddhist-monks {
-    max-width: 100%;
-    height: auto;
+#buddah-history {
     padding-left: 570px;
     top: -470px;
     position: relative;
