@@ -118,6 +118,49 @@ body {
     position: absolute;
 }
 
+/* circle images */
+
+#circle-container {
+    width: 320px;
+    height: 320px;
+    padding: 20px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 2px;
+    border-radius: 50%;
+    margin: 0 auto;
+    float: right;
+    margin-right: 30px;
+    margin-top: -370px;
+}
+
+#circle-cover-bg {
+    background: url('../images/yoga-beach-1.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+#circle-container-2 {
+    width: 320px;
+    height: 320px;
+    padding: 20px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 2px;
+    border-radius: 50%;
+    margin: 0 auto;
+    float: right;
+    margin-right: 1040px;
+    margin-top: -370px;
+}
+
+#circle-cover-bg-2 {
+    background: url(../images/yoga-beach-2\ .jpg) no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
 /* about us section */ 
 
 #about-us h2 {
