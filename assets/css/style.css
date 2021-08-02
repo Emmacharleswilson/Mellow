@@ -7,8 +7,14 @@
 }
 
 body {
-    background-color: rgb(247, 221, 221);
+    background-color: #fae9e9;
 }
+
+#menu {
+    font-family: Work, sans-serif;
+    height: 50px;
+}
+
 /* heading and menu items */
 
 #menu {
@@ -93,7 +99,7 @@ body {
     height: 670px;
     width: 100%;
     background: url('../images/yoga-woman.jpg') no-repeat center center; 
-    background-size: 1420px;
+    background-size: 1440px;
 }
 
 #cover-text {
@@ -210,32 +216,36 @@ footer {
 
 /* history page title and content */
 
+#buddah-history {
+    height: 630px;
+    width: 100%;
+    background: url('../images/buddah-history\ .webp') no-repeat center center; 
+    background-size: 1440px;
+    
+
+}
+
+
 #history {
-    float: left;
+    text-align: center;
     position: relative;
-    padding-top: 50px;
-    padding-right: 200px;
-    padding-left: 40px;
     font-size: 120%;
     font-family: Work, sans-serif;
+    padding-top: 20px;
 }
 
 #history p {
-    width: 500px;
+    width: 700px;
     font-size: 105%;
     line-height: 25px;
     font-family: 'Times New Roman', Times, serif;
-}
+    text-align: center;
 
-#buddah-history {
-    padding-left: 530px;
-    top: -470px;
-    position: relative;
 }
 
 #how-old {
-    margin-top: -430px;
     font-family: Work, sans-serif;
+    text-align: center;
 }
 
 #how-old p {
@@ -243,20 +253,23 @@ footer {
     line-height: 25px;
     font-size: 105%;
     font-family: 'Times New Roman', Times, serif;
+    width: 700px;
+    text-align: center;
 }
 
 #li {
-    padding-left: 30px;
     list-style-position: inside;
     font-size: 105%;
-    padding-top: 10px;
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
 #india {
     font-size: 105%;
     line-height: 25px;
     font-family: 'Times New Roman', Times, serif;
+    width: 700px;
+    text-align: center;
 }
 
 /* Why Learn to Meditate */
@@ -278,12 +291,15 @@ footer {
     padding-left: 40px;
     padding-right: 40px;
     text-align: center;
+    margin-top: 20px;
 }
 
 #benefits li {
     font-weight: 700;
     font-size: 20px;
 }
+
+
  
 
 
